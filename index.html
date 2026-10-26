@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title id="t-es">Restaurante de arroces en Cullera (Valencia) | El Rincón del Faro desde 1982</title>
+<meta name="description" content="Arroces, carnes selectas y pescado fresco de la lonja de Cullera. Restaurante familiar desde 1982 en Carrer Ciutats Unides, 1. Reserva mesa online o llama al 961 72 45 63.">
+<meta name="theme-color" content="#1A1F3B">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="El Rincón del Faro · Arroces en Cullera desde 1982">
+<meta property="og:description" content="Arroces, carnes selectas y pescado fresco de la lonja de Cullera. Carta de temporada.">
+<meta property="og:locale" content="es_ES">
+<link rel="icon" href="img/logo.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="img/hero-800.webp" imagesrcset="img/hero-800.webp 800w, img/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "El Rincón del Faro", "description": "Restaurante de arroces en Cullera, abierto desde 1982. Carnes selectas y pescado fresco de la lonja de Cullera.", "url": "https://elrincondelfaro.com/", "telephone": "+34961724563", "email": "info@elrincondelfaro.com", "foundingDate": "1982", "servesCuisine": ["Arroces", "Mediterránea", "Pescado y marisco", "Carnes a la brasa"], "acceptsReservations": "True", "hasMenu": "https://elrincondelfaro.com/cartas/", "address": {"@type": "PostalAddress", "streetAddress": "Carrer Ciutats Unides, 1", "postalCode": "46400", "addressLocality": "Cullera", "addressRegion": "Valencia", "addressCountry": "ES"}, "potentialAction": {"@type": "ReserveAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish", "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]}, "result": {"@type": "Reservation", "name": "Reservar mesa"}}}</script>
+<style>
+:root{
+  --navy:#1A1F3B; --navy-2:#262c52; --butter:#FFF182; --butter-soft:#FFF9C4; --ink:#333; --white:#fff; --rose:#CC3366;
+  --serif:'Gelasio',Georgia,'Times New Roman',serif; --sans:'Karla',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --pad:clamp(20px,5vw,64px); --max:1160px;
+  --cut:polygon(var(--c,14px) 0,100% 0,100% 100%,0 100%);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;font-family:var(--serif);font-size:1.125rem;line-height:1.65;color:var(--ink);background:var(--white);padding-bottom:0}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0;font-weight:700;color:var(--navy)}
+p{margin:0 0 1em}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px;border-radius:2px}
+.dark :focus-visible,header :focus-visible,.bar :focus-visible,footer :focus-visible{outline-color:var(--butter)}
+.skip{position:absolute;left:12px;top:-60px;background:var(--butter);color:var(--navy);padding:10px 16px;font-family:var(--sans);font-weight:700;z-index:100;text-decoration:none}
+.skip:focus{top:12px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+section{padding:clamp(56px,9vw,112px) 0;scroll-margin-top:72px}
+.dark{background:var(--navy);color:#fff}
+.dark h2,.dark h3{color:#fff}
+.soft{background:var(--butter-soft)}
+
+/* placa con el corte del logo */
+.plate{display:inline-block;--c:clamp(18px,3vw,34px);clip-path:var(--cut);background:var(--butter);color:var(--navy);
+  font-size:clamp(1.75rem,4.2vw,2.75rem);padding:.28em .5em .3em calc(.5em + var(--c) * .55);margin-bottom:clamp(24px,4vw,40px)}
+.dark .plate{background:var(--butter);color:var(--navy)}
+.soft .plate,.white .plate{background:var(--navy);color:var(--butter)}
+.plate.sm{font-size:clamp(1.35rem,3vw,1.75rem)}
+
+/* botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.6em 1.4em;font-family:var(--sans);font-weight:700;
+  font-size:1.0625rem;text-decoration:none;border-radius:6px;border:2px solid var(--navy);background:var(--navy);color:var(--butter);cursor:pointer;line-height:1.2;text-align:center}
+.btn:hover{background:var(--navy-2)}
+.btn.gold{background:var(--butter);color:var(--navy);border-color:var(--butter)}
+.btn.gold:hover{background:#fff;border-color:#fff}
+.btn.line{background:transparent;color:inherit;border-color:currentColor}
+.btn.line:hover{background:rgba(255,255,255,.12)}
+.soft .btn.line,.white .btn.line{color:var(--navy)}
+.soft .btn.line:hover,.white .btn.line:hover{background:rgba(26,31,59,.08)}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+
+/* cabecera */
+header.top{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff;font-family:var(--sans)}
+header .in{display:flex;align-items:center;gap:16px;max-width:var(--max);margin:0 auto;padding:8px var(--pad);min-height:68px}
+.logo{display:block;width:52px;height:52px;flex:none}
+.logo img{width:52px;height:52px}
+nav.main{margin-left:auto;display:flex;align-items:center;gap:2px}
+nav.main a{color:#fff;text-decoration:none;font-weight:500;font-size:1rem;padding:12px 11px;min-height:44px;display:inline-flex;align-items:center;border-bottom:2px solid transparent}
+nav.main a:hover{border-bottom-color:var(--butter)}
+.lang{font-family:var(--sans);font-weight:700;font-size:.9375rem;background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55);border-radius:6px;min-height:44px;min-width:48px;padding:0 10px;cursor:pointer}
+.lang:hover{border-color:var(--butter);color:var(--butter)}
+.top .btn{min-height:44px;padding:.4em 1.1em}
+.burger{display:none;min-height:44px;min-width:44px;background:transparent;border:2px solid rgba(255,255,255,.55);border-radius:6px;color:#fff;cursor:pointer;padding:0;position:relative}
+.burger span{position:absolute;left:11px;right:11px;height:2px;background:var(--butter);transition:transform .2s,opacity .2s}
+.burger span:nth-child(1){top:13px}.burger span:nth-child(2){top:20px}.burger span:nth-child(3){top:27px}
+.burger[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded=true] span:nth-child(2){opacity:0}
+.burger[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media (max-width:1060px){
+  .burger{display:block;margin-left:auto}
+  header .actions{margin-left:0}
+  nav.main{display:none;position:absolute;left:0;right:0;top:100%;background:var(--navy);flex-direction:column;align-items:stretch;padding:8px var(--pad) 24px;border-top:1px solid rgba(255,255,255,.18);max-height:calc(100vh - 68px);overflow:auto}
+  nav.main.open{display:flex}
+  nav.main a{font-family:var(--serif);font-size:1.375rem;padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.14)}
+}
+@media (max-width:560px){ header .in{gap:8px} .top .btn.res{padding:.4em .9em} .lang{min-width:44px;padding:0 8px} }
+
+/* hero */
+.hero{position:relative;min-height:min(86svh,820px);display:flex;align-items:flex-end;padding:0;color:#fff;background:var(--navy);overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+.hero .wrap{position:relative;width:100%;padding-top:120px;padding-bottom:0}
+.panel{--c:clamp(36px,8vw,110px);background:var(--navy);clip-path:var(--cut);max-width:760px;padding:clamp(28px,4.5vw,52px) clamp(24px,4vw,48px) clamp(30px,4.5vw,52px) calc(clamp(24px,4vw,48px) + var(--c) * .5)}
+.panel h1{color:var(--butter);font-size:clamp(2.1rem,6vw,3.75rem);margin-bottom:.4em;letter-spacing:-.005em}
+.panel p{font-size:clamp(1.05rem,2vw,1.25rem);max-width:34em;color:#fff}
+.panel .btns{margin-top:1.4em}
+.hero .wrap{margin-bottom:clamp(-1px,0px,0px)}
+.awards{background:var(--butter);color:var(--navy)}
+.awards .in{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;max-width:var(--max);margin:0 auto;padding:16px var(--pad);font-family:var(--sans)}
+.awards .imgs{display:flex;gap:10px;align-items:center}
+.awards .imgs img{height:54px;width:auto;border-radius:4px}
+.awards p{margin:0;font-weight:500;font-size:1.0625rem;flex:1 1 280px}
+.awards b{font-weight:700}
+
+/* quiénes somos */
+.about{display:grid;gap:clamp(28px,5vw,64px);align-items:center}
+@media (min-width:900px){.about{grid-template-columns:1.05fr .95fr}}
+.about .lead{font-size:clamp(1.3rem,2.6vw,1.7rem);line-height:1.45;color:var(--navy)}
+.about .photo{position:relative}
+.about .photo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.quotes{display:grid;gap:18px;margin-top:2em}
+@media (min-width:560px){.quotes{grid-template-columns:1fr 1fr}}
+.quotes figure{margin:0;padding-left:18px;border-left:4px solid var(--butter)}
+.quotes blockquote{margin:0 0 .3em;font-style:italic;font-size:1.125rem;color:var(--navy)}
+.quotes figcaption{font-family:var(--sans);font-size:.9375rem;color:#555}
+
+/* carta */
+.carta-intro{max-width:44em;margin-bottom:2.2em}
+.menu-cols{display:grid;gap:clamp(36px,5vw,56px) clamp(32px,5vw,72px)}
+@media (min-width:900px){.menu-cols{grid-template-columns:1fr 1fr}}
+.cat h3{font-size:clamp(1.4rem,2.6vw,1.75rem);margin-bottom:.7em;padding-bottom:.35em;border-bottom:3px solid var(--navy)}
+.cat h4{margin:1.6em 0 .4em;font-family:var(--sans);font-size:1.0625rem;color:var(--navy)}
+.items{list-style:none;margin:0;padding:0}
+.items li{display:flex;align-items:baseline;gap:8px;padding:.5em 0}
+.dish{display:block;flex:0 1 auto;min-width:0}
+.name{display:block;font-weight:700;color:var(--navy);line-height:1.3}
+.desc{display:block;font-size:1rem;color:#555;line-height:1.4}
+.dots{flex:1 1 16px;min-width:16px;border-bottom:2px dotted #b9b9b9;transform:translateY(-4px)}
+.price{font-family:var(--sans);font-weight:700;color:var(--navy);white-space:nowrap;flex:none}
+.cat.fill{display:flex;flex-direction:column}
+.fillimg{flex:1 1 auto;min-height:220px;width:100%;height:100%;object-fit:cover;margin-top:28px}
+.photo-row{display:grid;gap:12px;margin:clamp(36px,5vw,56px) 0;grid-template-columns:1fr 1fr}
+.photo-row img{width:100%;height:100%;aspect-ratio:3/2;object-fit:cover}
+@media (min-width:760px){.photo-row{grid-template-columns:1.4fr 1fr 1fr}.photo-row img:first-child{aspect-ratio:auto}}
+.photo-row img:first-child{grid-column:1/-1;aspect-ratio:16/9}
+@media (min-width:760px){.photo-row img:first-child{grid-column:auto;aspect-ratio:auto}}
+.credit{font-family:var(--sans);font-size:.875rem;color:#666;margin-top:6px}
+
+/* arroces */
+.rice{display:grid;gap:clamp(28px,5vw,64px)}
+@media (min-width:900px){.rice{grid-template-columns:.8fr 1.2fr;align-items:start}}
+.rice .copy p{font-size:1.2rem;max-width:30em}
+.dark .name{color:#fff}
+.dark .desc{color:#d6d8e6}
+.dark .price{color:var(--butter)}
+.dark .dots{border-bottom-color:rgba(255,255,255,.35)}
+.dark .items li{padding:.55em 0}
+.dark .items .name{font-size:1.125rem}
+
+/* menús */
+.menu-block{display:grid;gap:clamp(24px,4vw,56px)}
+@media (min-width:900px){.menu-block{grid-template-columns:.8fr 1.2fr;align-items:start}}
+.menu-meta p{max-width:28em}
+.tag-price{display:inline-flex;align-items:baseline;gap:.4em;font-family:var(--sans);margin:.4em 0 1em;color:inherit}
+.tag-price .big{font-family:var(--serif);font-weight:700;font-size:clamp(2.4rem,6vw,3.5rem);line-height:1}
+.dark .tag-price .big{color:var(--butter)}
+.soft .tag-price .big,.white .tag-price .big{color:var(--navy)}
+.tag-price .small{font-size:1rem;font-weight:500}
+dl.course-list{margin:0}
+.course{padding:1em 0;border-top:1px solid rgba(26,31,59,.25);display:grid;gap:.3em}
+@media (min-width:600px){.course{grid-template-columns:11em 1fr;gap:1.2em}}
+.dark .course{border-top-color:rgba(255,255,255,.28)}
+.course:first-child{border-top:3px solid currentColor}
+.course dt{font-family:var(--sans);font-weight:700;font-size:1.0625rem;color:inherit}
+.course dd{margin:0}
+.course ul{list-style:none;margin:0;padding:0}
+.course li{padding:.1em 0}
+.course-note{font-family:var(--sans);font-size:.9375rem;margin:.6em 0 0}
+.note-box{margin-top:1.4em;padding:14px 18px;border:2px solid currentColor;border-radius:6px;font-family:var(--sans);font-size:1rem}
+.empresas{display:grid;gap:28px;margin-top:clamp(40px,6vw,72px)}
+@media (min-width:760px){.empresas{grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px)}}
+.empresas h3{font-size:1.5rem;margin-bottom:.2em}
+.empresas ul{list-style:none;margin:.8em 0 0;padding:0;border-top:3px solid var(--butter)}
+.empresas li{padding:.55em 0;border-bottom:1px solid rgba(255,255,255,.22);line-height:1.4}
+.empresas .sub{font-family:var(--sans);font-size:1rem;color:#d6d8e6;margin:0}
+
+/* vinos */
+.wine{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 40px;padding:clamp(28px,4vw,44px) 0}
+.wine h2{font-size:clamp(1.5rem,3.4vw,2.1rem)}
+.wine p{margin:.3em 0 0;max-width:36em}
+section.slim{padding:0}
+
+/* regala */
+.gift{display:grid;gap:clamp(24px,4vw,56px)}
+@media (min-width:900px){.gift{grid-template-columns:1fr 1fr;align-items:start}}
+.gift ul{padding-left:1.15em;margin:0 0 1.4em}
+.gift li{margin-bottom:.5em}
+.gift h3{font-size:1.3rem;margin:1.2em 0 .5em}
+
+/* contacto */
+.contact{display:grid;gap:clamp(28px,4vw,56px)}
+@media (min-width:900px){.contact{grid-template-columns:.9fr 1.1fr}}
+address{font-style:normal}
+.contact .rows{display:grid;gap:22px}
+.contact dt{font-family:var(--sans);font-weight:700;color:var(--butter);font-size:1rem}
+.contact dd{margin:0;font-size:1.2rem}
+.contact a.tel{display:inline-block;padding:6px 0;min-height:44px;text-decoration:none;border-bottom:2px solid rgba(255,255,255,.4)}
+.contact a.tel:hover{border-bottom-color:var(--butter)}
+.map{width:100%;height:100%;min-height:360px;border:0;background:#e9e9e9}
+.mapbox{display:flex;flex-direction:column;gap:10px}
+
+footer{background:#10142a;color:#cfd2e6;font-family:var(--sans);font-size:1rem;padding:36px 0 110px}
+footer .in{display:flex;flex-wrap:wrap;gap:18px 40px;align-items:center;justify-content:space-between;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+footer img{width:56px;height:56px}
+footer p{margin:0}
+footer a{color:var(--butter);display:inline-block;padding:12px 2px;min-height:44px}
+
+/* barra móvil */
+.bar{display:none}
+@media (max-width:760px){
+  .bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--navy);border-top:2px solid var(--butter);padding:8px 10px calc(8px + env(safe-area-inset-bottom));gap:8px}
+  .bar .btn{min-height:48px}
+  footer{padding-bottom:110px}
+}
+@media (min-width:761px){footer{padding-bottom:36px}}
+
+/* editables */
+.edit{}
+body.ver-editables .edit{background:rgba(255,241,130,.9);outline:2px dashed var(--rose);outline-offset:2px;color:#1A1F3B}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido"><span data-en="Skip to content">Saltar al contenido</span></a>
+
+<header class="top">
+  <div class="in">
+    <a class="logo" href="#inicio" aria-label="El Rincón del Faro, inicio"><img src="img/logo.webp" width="52" height="52" alt="El Rincón del Faro"></a>
+    <nav class="main" id="nav" aria-label="Principal"><a href="#carta"><span data-en="Menu">Carta</span></a><a href="#menu-semanal"><span data-en="Weekly menu">Menú semanal</span></a><a href="#jornadas"><span data-en="Autumn weeks">Jornadas de otoño</span></a><a href="#navidad"><span data-en="Christmas">Navidad</span></a><a href="#vinos"><span data-en="Wines">Vinos</span></a><a href="#regala"><span data-en="Gift">Regala</span></a><a href="#contacto"><span data-en="Contact">Contacto</span></a></nav>
+    <div class="actions" style="display:flex;gap:8px;align-items:center;margin-left:auto">
+      <button class="lang" id="lang" type="button" aria-label="Switch to English">EN</button>
+      <a class="btn gold res" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar</span></a>
+    </div>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="contenido">
+<section class="hero" id="inicio" style="padding:0">
+  <img src="img/hero-1600.webp" srcset="img/hero-800.webp 800w, img/hero-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Carpaccio de pescado fresco con almendra y brotes, plato de El Rincón del Faro" fetchpriority="high">
+  <div class="wrap">
+    <div class="panel">
+      <h1><span data-en="Rice dishes in Cullera since 1982">Arroces en Cullera desde 1982</span></h1>
+      <p><span data-en="Tradition and creativity meet in every dish at El Rincón del Faro, with rice dishes as one of our signatures.">Tradición y creatividad se encuentran en cada plato de El Rincón del Faro, con los arroces como una de nuestras señas de identidad.</span></p>
+      <div class="btns">
+        <a class="btn gold" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar mesa</span></a>
+        <a class="btn line" href="#carta"><span data-en="See the menu">Ver la carta</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="awards">
+  <div class="in">
+    <div class="imgs">
+      <img src="img/repsol-23.webp" width="51" height="54" alt="Guía Repsol 2023" loading="lazy">
+      <img src="img/repsol-24.webp" width="51" height="54" alt="Guía Repsol 2024" loading="lazy">
+      <img src="img/repsol-25.webp" width="51" height="54" alt="Guía Repsol 2025" loading="lazy">
+      <img src="img/repsol-26.webp" width="40" height="54" alt="Guía Repsol 2026" loading="lazy">
+    </div>
+    <p class="edit"><span data-en="&lt;b&gt;Guía Repsol&lt;/b&gt; from 2023 to 2026. Over 4,000 reviews on Google, Tripadvisor and TheFork."><b>Guía Repsol</b> de 2023 a 2026. Más de 4.000 opiniones en Google, Tripadvisor y TheFork.</span></p>
+  </div>
+</div>
+
+<section class="white" id="nosotros">
+  <div class="wrap about">
+    <div>
+      <h2 class="plate"><span data-en="Our kitchen">Nuestra cocina</span></h2>
+      <p class="lead"><span data-en="We work with selected meats and fresh fish from the Cullera fish market, renewing our menu every season to keep winning over those who have been with us for more than 40 years.">Trabajamos con carnes selectas y pescado fresco de la lonja de Cullera, renovando nuestra carta cada temporada para seguir conquistando a quienes nos acompañan desde hace más de 40 años.</span></p>
+      <p><span data-en="Baked rice, paella and fideuà, grill, market-fresh seafood and a wine list you can browse on your phone.">Arroces al horno, en paella y fideuàs, brasas, producto de lonja y una carta de vinos que puedes consultar desde el móvil.</span></p>
+      <div class="quotes" aria-label="Reseñas de Google">
+        <figure><blockquote class="edit">«Perfecto los calamares. Super recomendable.»</blockquote><figcaption><span data-en="Google review, April 2026">Reseña de Google, abril de 2026</span></figcaption></figure>
+        <figure><blockquote class="edit">«Servicio impecable, muy amable Jorge y el resto del equipo.»</blockquote><figcaption><span data-en="Google review, April 2026">Reseña de Google, abril de 2026</span></figcaption></figure>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="img/fachada-900.webp" srcset="img/fachada-500.webp 500w, img/fachada-900.webp 900w" sizes="(min-width:900px) 45vw, 100vw" width="1536" height="1080" alt="Fachada de piedra del restaurante El Rincón del Faro, en Carrer Ciutats Unides de Cullera" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="arroces">
+  <div class="wrap rice">
+    <div class="copy">
+      <h2 class="plate"><span data-en="The rice dishes">Los arroces</span></h2>
+      <p><span data-en="Rice has been our signature since 1982: paellas, baked rice, soupy rice and fideuàs made with Cullera fish-market produce and selected meats.">El arroz es nuestra seña de identidad desde 1982: paellas, arroces al horno, melosos y fideuàs con producto de la lonja de Cullera y carnes selectas.</span></p>
+      <div class="btns"><a class="btn gold" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar mesa</span></a></div>
+    </div>
+    <div><ul class="items"><li><span class="dish"><span class="name">Paëlla Valenciana</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">19&nbsp;€</span></li><li><span class="dish"><span class="name">Nuestro arroz al horno en paella</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">20&nbsp;€</span></li><li><span class="dish"><span class="name">Pato confitado, foie y boletus edulis</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">22&nbsp;€</span></li><li><span class="dish"><span class="name">Secreto ibérico, foie y boletus edulis</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">22&nbsp;€</span></li><li><span class="dish"><span class="name">Carabinero y rape</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">28&nbsp;€</span></li><li><span class="dish"><span class="name">Bogavante azul y rape</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">28&nbsp;€</span></li><li><span class="dish"><span class="name">Senyoret con rape, sepia y gamba</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">22&nbsp;€</span></li><li><span class="dish"><span class="name">Fideuà del senyoret</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">27&nbsp;€</span></li><li><span class="dish"><span class="name">Fideuà de pato confitado, foie y boletus edulis</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">27&nbsp;€</span></li></ul><p class="credit" style="color:#d6d8e6"><span data-en="Prices to be confirmed: the menu does not say whether they are per person or per serving.">Precios por confirmar: la carta no indica si son por persona o por ración.</span></p></div>
+  </div>
+</section>
+
+<section class="soft" id="carta">
+  <div class="wrap">
+    <h2 class="plate"><span data-en="Our menu">Nuestra carta</span></h2>
+    <p class="carta-intro"><span data-en="Fish-market produce, grill and rice dishes. The menu changes with the season.">Producto de lonja, brasas y arroces. La carta cambia con la temporada.</span> <span class="edit"><span data-en="Prices as per the published menu; subject to change.">Precios según la carta publicada; sujetos a cambios.</span></span> <span data-en="Dish names are shown in Spanish, as on the printed menu.">Los nombres de los platos se muestran en castellano, como en la carta impresa.</span></p>
+    <div class="menu-cols">
+      <div class="cat"><h3><span data-en="To share">Para compartir</span></h3><ul class="items"><li><span class="dish"><span class="name">Ceviche de vieiras y gamba blanca de Cullera</span><span class="desc">Equilibrio cítrico y fresco</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">19&nbsp;€</span></li><li><span class="dish"><span class="name">Nuestra ensaladilla de gamba blanca</span><span class="desc">Espuma de aceitunas y regañá · media ración 10&nbsp;€</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">18&nbsp;€</span></li><li><span class="dish"><span class="name">Raviolones caseros de gamba blanca</span><span class="desc">Mantequilla de salvia · media ración 10&nbsp;€</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">18&nbsp;€</span></li><li><span class="dish"><span class="name">Calamar de playa</span><span class="desc">Kimchee y cítricos</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">19&nbsp;€</span></li><li><span class="dish"><span class="name">Cecina de Wagyu</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">25&nbsp;€</span></li><li><span class="dish"><span class="name">Caviar iraní Caspian Pearl 30&nbsp;grs.</span><span class="desc">Blinis y mantequilla</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">80&nbsp;€</span></li><li><span class="dish"><span class="name">Sepionets de lonja</span><span class="desc">Papada ibérica de bellota</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">21,50&nbsp;€</span></li><li><span class="dish"><span class="name">Mejillones Bouchot</span><span class="desc">A la «Poulette»</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">16,50&nbsp;€</span></li><li><span class="dish"><span class="name">Canelones de pato azulón</span><span class="desc">Bechamel de foie</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">16,50&nbsp;€</span></li><li><span class="dish"><span class="name">Alcachofas braseadas</span><span class="desc">Carbonara de yemas ecológicas y torreznos</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">19&nbsp;€</span></li><li><span class="dish"><span class="name">Morrillo de atún rojo a la brasa</span><span class="desc">Escabeche templado de jamón ibérico</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">19,50&nbsp;€</span></li></ul></div>
+      <div class="cat fill"><h3><span data-en="Bites">Bocados</span></h3><ul class="items"><li><span class="dish"><span class="name">Ostra Nathalie &amp; Sebastien nº&nbsp;2</span><span class="desc">Marennes Oléron · fresca y yodada</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">4,50&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Anchoa del Cantábrico</span><span class="desc">Mantequilla artesana de calaveruela</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">4,50&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Ssam de atún rojo</span><span class="desc">Tártara limeña de ají amarillo y chipotle</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">7,50&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Brioche de steak tartar</span><span class="desc">Solomillo de vaca nacional y mantequilla trufada</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">9,50&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Croqueta cremosa de jamón ibérico</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">2,75&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Brioche de gamba roja curada</span><span class="desc">Caviar y beurre blanc de yuzu</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">20&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Buñuelo de queso de oveja latxa</span><span class="desc">Mojama de atún rojo semicurada</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">4,50&nbsp;€/ud.</span></li><li><span class="dish"><span class="name">Brioche de cangrejo de las nieves</span><span class="desc">Aguacate y sweet chilli</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">14,50&nbsp;€/ud.</span></li></ul>
+        <img class="fillimg" src="img/ceviche-900.webp" srcset="img/ceviche-500.webp 500w, img/ceviche-900.webp 900w" sizes="(min-width:900px) 45vw, 100vw" width="900" height="580" alt="Ceviche con cítricos servido en cuenco de cerámica" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="photo-row">
+      <img src="img/crudos-900.webp" srcset="img/crudos-500.webp 500w, img/crudos-900.webp 900w" sizes="(min-width:760px) 40vw, 100vw" width="900" height="680" alt="Selección de crudos y entrantes del Rincón del Faro vista desde arriba" loading="lazy" decoding="async">
+      <img src="img/croquetas-900.webp" srcset="img/croquetas-500.webp 500w, img/croquetas-900.webp 900w" sizes="(min-width:760px) 28vw, 50vw" width="900" height="600" alt="Dos croquetas servidas en bandeja por el equipo de sala" loading="lazy" decoding="async">
+      <img src="img/gamba-caviar-900.webp" srcset="img/gamba-caviar-500.webp 500w, img/gamba-caviar-900.webp 900w" sizes="(min-width:760px) 28vw, 50vw" width="900" height="598" alt="Tosta de gamba roja curada con caviar sobre crema blanca" loading="lazy" decoding="async">
+    </div>
+    <div class="menu-cols">
+      <div class="cat"><h3><span data-en="From the grill">Las brasas del Rincón</span></h3><ul class="items"><li><span class="dish"><span class="name">Lenguado / San Pedro / Rodaballo</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">75&nbsp;€/kg</span></li><li><span class="dish"><span class="name">Virrey</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">70&nbsp;€/kg</span></li><li><span class="dish"><span class="name">Solomillo de vaca nacional 225&nbsp;grs.</span><span class="desc">Salsa café Paris</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">27&nbsp;€</span></li><li><span class="dish"><span class="name">Chuleta de vaca madurada Premium</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">80&nbsp;€/kg</span></li></ul><h4><span data-en="Sides">Guarniciones</span></h4><ul class="items"><li><span class="dish"><span class="name">Cogollos aliñados acabados en brasa</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">6&nbsp;€</span></li><li><span class="dish"><span class="name">Puerros y romescu</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">6&nbsp;€</span></li><li><span class="dish"><span class="name">Patatas ratte, mantequilla y romero</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">6&nbsp;€</span></li></ul></div>
+      <div class="cat fill"><h3><span data-en="Dessert">El postre</span></h3><ul class="items"><li><span class="dish"><span class="name">Milhojas de cremoso de yuzu</span><span class="desc">Merengue tostado</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">7,50&nbsp;€</span></li><li><span class="dish"><span class="name">El flan de leche fresca merengada</span><span class="desc">Chantilly ligera</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">8&nbsp;€</span></li><li><span class="dish"><span class="name">Tarta de queso al horno</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">8,50&nbsp;€</span></li><li><span class="dish"><span class="name">La tarta de chocolate Valrhona y avellana</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">8&nbsp;€</span></li><li><span class="dish"><span class="name">Tarta fina de manzana</span><span class="desc">Helado de pistacho</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">9,50&nbsp;€</span></li><li><span class="dish"><span class="name">Helados artesanales</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">5,75&nbsp;€</span></li><li><span class="dish"><span class="name">Coulant casero de tarta Santiago</span><span class="desc">Con helado de nata fresca</span></span><span class="dots" aria-hidden="true"></span><span class="price edit">7,50&nbsp;€</span></li></ul>
+        <img class="fillimg" src="img/postre-pistacho-900.webp" srcset="img/postre-pistacho-500.webp 500w, img/postre-pistacho-900.webp 900w" sizes="(min-width:900px) 45vw, 100vw" width="900" height="606" alt="Postre con pistacho y salsa verde sobre plato azul" loading="lazy" decoding="async"></div>
+    </div>
+    <p><span data-en="To check the allergens in each dish, see the">Para consultar los alérgenos de cada plato, tienes la</span> <a href="https://elrincondelfaro.com/cartas/" target="_blank" rel="noopener"><span data-en="full menu with allergen legend">carta completa con leyenda de alérgenos</span></a>.</p>
+  </div>
+</section>
+
+<section class="white" id="menu-semanal">
+  <div class="wrap menu-block">
+    <div class="menu-meta">
+      <h2 class="plate"><span data-en="Weekly menu">Menú semanal</span></h2>
+      <p><span data-en="A set menu renewed every week: a starter bite, two starters, a main and dessert.">Un menú cerrado que se renueva cada semana: aperitivo, dos entrantes, un principal y postre.</span> <span class="edit"><span data-en="Dishes and dates to be confirmed.">Platos y fechas por confirmar.</span></span></p>
+      <p class="tag-price"><span class="big edit">27,50&nbsp;€</span> <span class="small" data-en="per person">por persona</span></p>
+      <div class="btns"><a class="btn" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar mesa</span></a></div>
+    </div>
+    <dl class="course-list edit" style="color:var(--navy)"><div class="course"><dt><span data-en="Starter bite">Aperitivo</span></dt><dd><ul><li>Mejillón en escabeche casero</li></ul></dd></div><div class="course"><dt><span data-en="To start">Entrantes</span></dt><dd><ul><li>Tartar de mero curado, eneldo y mayonesa hoisin</li><li>Ensaladilla de gamba blanca, espuma de aceitunas y regañá</li></ul></dd></div><div class="course"><dt><span data-en="Main">Principal</span></dt><dd><ul><li>Arroz de secreto ibérico y verduritas de temporada</li></ul></dd></div><div class="course"><dt><span data-en="Dessert">Postre</span></dt><dd><ul><li>Milhojas de cremoso de yuzu y merengue tostado</li></ul></dd></div></dl>
+  </div>
+</section>
+
+<section class="soft" id="jornadas">
+  <div class="wrap menu-block">
+    <div class="menu-meta">
+      <h2 class="plate"><span data-en="Autumn food weeks">Jornadas gastronómicas de otoño</span></h2>
+      <p style="font-size:1.4rem;color:var(--navy);font-weight:700"><span data-en="10 to 22 November">Del 10 al 22 de noviembre</span></p>
+      <p class="tag-price"><span class="big">35&nbsp;€</span> <span class="small" data-en="per person">por cubierto</span></p>
+      <p><span data-en="Booking in advance is essential.">Imprescindible reserva previa.</span></p>
+      <div class="btns"><a class="btn" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar mesa</span></a>
+      <a class="btn line" href="tel:+34961724563"><span data-en="Call 961 72 45 63">Llamar al 961 72 45 63</span></a></div>
+    </div>
+    <dl class="course-list" style="color:var(--navy)"><div class="course"><dt><span data-en="Starter bite">Aperitivo</span></dt><dd><ul><li>Croqueta de sobrasada de porc negre y queso Comté</li></ul></dd></div><div class="course"><dt><span data-en="To start">Entrantes</span></dt><dd><ul><li>Ensaladilla de perdiz escabechada</li><li>Tartar de gamba roja curada y boletus en conserva casera</li></ul></dd></div><div class="course"><dt><span data-en="Main">Principal</span></dt><dd><ul><li>Arroz seco o meloso de caza menor (pichón, pato y perdiz), setas y calabaza</li></ul></dd></div><div class="course"><dt><span data-en="Dessert">Postre</span></dt><dd><ul><li>Coulant casero de calabaza y chocolate blanco</li></ul></dd></div></dl>
+  </div>
+</section>
+
+<section class="dark" id="navidad">
+  <div class="wrap">
+    <div class="menu-block">
+      <div class="menu-meta">
+        <h2 class="plate"><span data-en="Christmas 2026">Navidad 2026</span></h2>
+        <p style="font-size:1.4rem;color:var(--butter);font-weight:700"><span data-en="25 December 2026">25 de diciembre de 2026</span></p>
+        <p class="tag-price"><span class="big">65&nbsp;€</span> <span class="small" data-en="per person">por persona</span></p>
+        <p class="note-box"><span data-en="The menu includes artisan bread service.">El menú incluye servicio de pan artesanal.</span></p>
+        <div class="btns" style="margin-top:1.2em"><a class="btn gold" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar mesa</span></a></div>
+      </div>
+      <dl class="course-list"><div class="course"><dt><span data-en="Welcome bites">Aperitivo de bienvenida</span></dt><dd><ul><li>Ensaladillo de perdiz escabechada</li><li>Torreznos de Soria y mayonesa trufada</li></ul></dd></div><div class="course"><dt><span data-en="To start">Entradas</span></dt><dd><ul><li>Cecina de Wagyu y almendra marcona</li><li>Morrillo de atún rojo en escabeche templado y velouté de ibérico</li><li>Canelones de pato azulón y bechamel de foie</li></ul></dd></div><div class="course"><dt><span data-en="Mains (choose one)">Principales (a elegir)</span></dt><dd><ul><li>Arroz de carabinero y rape</li><li>Arroz de secreto ibérico, foie y boletus</li><li>Solomillo Wellington</li></ul></dd></div><div class="course"><dt><span data-en="Dessert">Postre</span></dt><dd><ul><li>Tarta fina de manzana con helado artesanal de pistacho</li><li>Petits fours</li></ul></dd></div></dl>
+    </div>
+    <h3 class="plate sm" style="margin-top:clamp(48px,7vw,88px);margin-bottom:8px"><span data-en="Gastronomic Christmas menu for companies">Menú gastronómico de Navidad para empresas</span></h3>
+    <p class="sub" style="font-family:var(--sans)"><span data-en="16 to 31 December · minimum 4 people">Del 16 al 31 de diciembre · mínimo 4 personas</span></p>
+    <div class="empresas">
+      <div><h3><span data-en="Menu no. 1">Menú nº 1</span></h3><p class="tag-price" style="margin:.2em 0 0"><span class="big" style="font-size:2.2rem">50&nbsp;€</span> <span class="small" data-en="per person">por persona</span></p><ul><li>Ssam de atún rojo, tártara limeña de ají amarillo y chipotle</li><li>Buñuelo de queso de oveja latxa y mojama de atún rojo semicurada</li><li>Nuestra ensaladilla de gamba blanca, espuma de aceitunas y regañá</li><li>Alcachofas a la brasa, carbonara de yemas ecológicas y torreznos</li><li>Arroz de secreto ibérico, boletus y foie</li><li>Nuestra tarta de chocolate y avellana</li></ul></div>
+      <div><h3><span data-en="Menu no. 2">Menú nº 2</span></h3><p class="tag-price" style="margin:.2em 0 0"><span class="big" style="font-size:2.2rem">65&nbsp;€</span> <span class="small" data-en="per person">por persona</span></p><ul><li>Ostra Nathalie nº&nbsp;2, leche de tigre y ponzu de naranja</li><li>Cecina de Wagyu y almendra marcona</li><li>Brioche de anchoa del Cantábrico y mantequilla calaveruela</li><li>Tiradito de lubina curada y «pil-pil meunière»</li><li>Canelón de pato azulón y bechamel de foie</li><li>Arroz de carabinero y rape</li><li>Tarta fina de manzana y helado de pistacho</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft slim" id="vinos">
+  <div class="wrap wine">
+    <div><h2><span data-en="Wine list">Carta de vinos</span></h2><p><span data-en="Browse it on your phone, with a card for every wine.">Consúltala desde el móvil, con su ficha de cada vino.</span></p></div>
+    <a class="btn" href="https://web.winerim.com/elrincondelfaro" target="_blank" rel="noopener"><span data-en="Open the wine list">Abrir la carta de vinos</span></a>
+  </div>
+</section>
+
+<section class="white" id="regala">
+  <div class="wrap gift">
+    <div>
+      <h2 class="plate"><span data-en="Give an experience">Regala una experiencia</span></h2>
+      <p class="lead" style="font-size:1.3rem;color:var(--navy)"><span data-en="A customisable El Rincón del Faro gift voucher, from €50. You decide the maximum amount, however many guests enjoy it.">Un bono regalo personalizable del Rincón del Faro, desde 50 €. El importe máximo lo decides tú, sea cual sea el número de comensales.</span></p>
+      <div class="btns"><a class="btn" href="https://checkout.yourgift.cards/236421a4-0765-41ad-c0bc-08dc893f6a65" target="_blank" rel="noopener"><span data-en="Buy a gift voucher">Comprar un vale regalo</span></a></div>
+    </div>
+    <div>
+      <h3 style="margin-top:0"><span data-en="How it works">Cómo funciona</span></h3>
+      <ul>
+        <li><span data-en="Booking is required.">Es necesario hacer reserva.</span></li>
+        <li><span data-en="The recipient comes to the restaurant with the voucher code and shows it to the staff, who tell them the amount available.">Quien recibe el regalo acude al local con el código del bono y se lo muestra al personal de sala, que le indica el importe disponible.</span></li>
+      </ul>
+      <h3><span data-en="Terms">Condiciones</span></h3>
+      <ul>
+        <li><span data-en="Minimum amount: €50.">Importe mínimo: 50 €.</span></li>
+        <li><span data-en="The voucher can be used once only.">El bono es de un único uso.</span></li>
+        <li><span data-en="If the voucher amount is exceeded, the difference is paid at the restaurant.">Si se supera la cantidad del bono, la diferencia se abona en el local.</span></li>
+        <li><span data-en="Any unused balance is not refunded.">Si no se consume el importe completo, el sobrante no se reembolsa.</span></li>
+        <li><span data-en="Valid for three months from the date of purchase.">Válido durante tres meses desde la fecha de compra.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="contacto">
+  <div class="wrap contact">
+    <div>
+      <h2 class="plate"><span data-en="Find us and book">Cómo llegar y reservar</span></h2>
+      <dl class="rows">
+        <div><dt><span data-en="Address">Dirección</span></dt><dd><address>Carrer Ciutats Unides, 1<br>46400 Cullera, Valencia</address></dd></div>
+        <div><dt><span data-en="Phone">Teléfonos</span></dt><dd><a class="tel" href="tel:+34961724563">961 72 45 63</a> &nbsp;/&nbsp; <a class="tel" href="tel:+34606583001">606 58 30 01</a></dd></div>
+        <div><dt>Email</dt><dd><a class="tel" href="mailto:info@elrincondelfaro.com">info@elrincondelfaro.com</a></dd></div>
+        <div><dt><span data-en="Opening hours">Horario</span></dt><dd><span class="edit"><span data-en="Every day, 10:00 to 23:30">Todos los días, de 10:00 a 23:30</span></span><br><span style="font-size:1rem;color:#d6d8e6" class="edit"><span data-en="Opening hours to be confirmed with the restaurant.">Horario por confirmar con el restaurante.</span></span></dd></div>
+      </dl>
+      <div class="btns" style="margin-top:28px">
+        <a class="btn gold" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book a table">Reservar mesa</span></a>
+        <a class="btn line" href="https://wa.me/34606583001?text=Hola%2C%20quer%C3%ADa%20hacer%20una%20consulta%20sobre%20El%20Rinc%C3%B3n%20del%20Faro." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="mapbox">
+      <iframe class="map" title="Mapa: El Rincón del Faro, Carrer Ciutats Unides 1, Cullera" src="https://maps.google.com/maps?q=Carrer%20Ciutats%20Unides%2C%201%2046400%20Cullera%20Valencia&t=m&z=16&output=embed&iwloc=near" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="420"></iframe>
+      <a href="https://www.google.com/maps/search/?api=1&query=El%20Rinc%C3%B3n%20del%20Faro%20Carrer%20Ciutats%20Unides%201%20Cullera" target="_blank" rel="noopener" style="font-family:var(--sans);color:var(--butter);min-height:44px;display:inline-flex;align-items:center"><span data-en="Open in Google Maps">Abrir en Google Maps</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="in">
+    <img src="img/logo.webp" width="56" height="56" alt="El Rincón del Faro" loading="lazy">
+    <p>El Rincón del Faro · Carrer Ciutats Unides, 1 · 46400 Cullera<br><span data-en="Open since 1982">Abierto desde 1982</span></p>
+    <p><a href="tel:+34961724563">961 72 45 63</a> · <a href="mailto:info@elrincondelfaro.com">info@elrincondelfaro.com</a></p>
+  </div>
+</footer>
+
+<div class="bar" role="group" aria-label="Acciones rápidas">
+  <a class="btn line" style="color:#fff" href="tel:+34961724563"><span data-en="Call">Llamar</span></a>
+  <a class="btn gold" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res data-res-es="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/spanish" data-res-en="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-rincon-del-faro/english" target="_blank" rel="noopener"><span data-en="Book">Reservar</span></a>
+</div>
+<script>
+(function(){
+  var h=document.documentElement, KEY='faro-lang';
+  var nodes=[].slice.call(document.querySelectorAll('[data-en]'));
+  nodes.forEach(function(n){n.setAttribute('data-es',n.innerHTML)});
+  var btn=document.getElementById('lang');
+  var resES=document.querySelectorAll('[data-res]');
+  function set(l){
+    h.lang=l;
+    nodes.forEach(function(n){n.innerHTML=n.getAttribute(l==='en'?'data-en':'data-es')});
+    btn.textContent=l==='en'?'ES':'EN';
+    btn.setAttribute('aria-label',l==='en'?'Cambiar a castellano':'Switch to English');
+    resES.forEach(function(a){a.href=a.getAttribute(l==='en'?'data-res-en':'data-res-es')});
+    document.title=l==='en'?'Rice restaurant in Cullera (Valencia) | El Rincón del Faro since 1982':document.getElementById('t-es').textContent;
+    try{localStorage.setItem(KEY,l)}catch(e){}
+  }
+  btn.addEventListener('click',function(){set(h.lang==='en'?'es':'en')});
+  var saved=null;try{saved=localStorage.getItem(KEY)}catch(e){}
+  if(saved==='en')set('en');
+  // menú móvil
+  var b=document.getElementById('burger'), nav=document.getElementById('nav');
+  function close(){nav.classList.remove('open');b.setAttribute('aria-expanded','false')}
+  b.addEventListener('click',function(){var o=nav.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false')});
+  nav.addEventListener('click',function(e){if(e.target.tagName==='A')close()});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('open')){close();b.focus()}});
+  // resaltar datos por confirmar: añadir ?editables a la URL
+  if(/[?&]editables/.test(location.search))document.body.classList.add('ver-editables');
+})();
+</script>
+</body>
+</html>
